@@ -1,0 +1,52 @@
+{
+    "clubs": [
+        {
+            "name": "город Москва, улица Хабаровская, дом 15",
+            "town": "hi hi",
+            "FortiGate": "123131",
+            "Switches": "swithc"
+        },
+        {
+            "name": "город Москва, улица Новопеределкинская, дом 9А",
+            "town": "Москва",
+            "FortiGate": {
+                "hostname": "msk-novoperedelkinskaya-9a",
+                "wan1": "194.135.65.86",
+                "wan2": "Dynamic",
+                "lo0": "10.200.200.14:8443"
+            },
+            "Switches": {
+                "sw1": "10.64.53.130"
+            }
+        },
+        {
+            "name": "hio",
+            "town": "pipio",
+            "FortiGate": {
+                "hostname": "msk-khabarovskaya-15",
+                "wan1": "77.243.101.7",
+                "wan2": "Dynamic",
+                "lo0": "10.200.200.36:8443"
+            }
+        },
+        {
+            "name": "meow",
+            "town": "shhhhhhhhh",
+            "FortiGate": {
+                "hostname": "msk-novoperedelkinskaya-9a",
+                "wan1": "194.135.65.86",
+                "wan2": "Dynamic",
+                "lo0": "10.200.200.14:8443"
+            },
+            "Switches": "10.20.12.23:123"
+        },
+        {
+            "name": "rrr",
+            "town": "aaa",
+            "FortiGate": "hostname",
+            "Switches": {
+                "sw1": "{\n    \"hostname\": \"msk-novoperedelkinskaya-9a\",\n    \"wan1\": \"194.135.65.86\",\n    \"wan2\": \"Dynamic\",\n    \"lo0\": \"10.200.200.14:8443\"\n}"
+            }
+        }
+    ]
+}

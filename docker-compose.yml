@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+  telegram_bot:
+    build:
+        context: ./
+        dockerfile: ./Dockerfile
+    container_name: ls_telegram_bot
+    restart: always
+    volumes:
+      - ./example/ClubDB.json:/app/ClubDB.json
